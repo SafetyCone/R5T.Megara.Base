@@ -1,4 +1,10 @@
 R5T.Megara.Base - An IFileSerializer<T> service definition base library for the Megara project.
 
-Goals
+
+# Prior Work
+
+Based on work in: https://github.com/MinexAutomation/R5T.NetStandard.IO.Serialization
+
+
+# Goals
 
