@@ -25,6 +25,6 @@ namespace R5T.Megara
         /// Serializes an object to a file.
         /// </summary>
         /// <param name="filePath">The rooted file path to use.</param>
-        void Serialize(string filePath, T obj, bool overwrite = true);
+        void Serialize(string filePath, T value, bool overwrite = true);
     }
 }
