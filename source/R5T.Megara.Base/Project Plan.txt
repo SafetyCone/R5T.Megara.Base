@@ -1,0 +1,4 @@
+R5T.Megara.Base - An IFileSerializer<T> service definition base library for the Megara project.
+
+Goals
+
