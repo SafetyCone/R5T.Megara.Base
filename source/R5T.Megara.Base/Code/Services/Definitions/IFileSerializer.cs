@@ -1,5 +1,7 @@
 ﻿using System;
 
+using R5T.T0064;
+
 
 namespace R5T.Megara
 {
@@ -12,7 +14,8 @@ namespace R5T.Megara
     /// Note to implementers:
     /// * Upon writing, note that the optional overwrite argument default value is true.
     /// </remarks>
-    public interface IFileSerializer<T>
+    [ServiceDefinitionMarker]
+    public interface IFileSerializer<T> : IServiceDefinition
     {
         /// <summary>
         /// Deserializes an object from a file.
